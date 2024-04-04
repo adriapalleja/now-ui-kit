@@ -879,6 +879,12 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
   width: 220px;
 }
 
+.manifest {
+  padding: 16px 0;
+  font-size: 16px;
+  text-align: justify;
+}
+
 .datepicker.datepicker-rtl {
   direction: rtl;
 }
