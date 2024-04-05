@@ -29,6 +29,8 @@ gulp.task('watch', function() {
 gulp.task('open', function() {
   gulp.src('index.html')
     .pipe(open());
+  gulp.src('legal.html')
+    .pipe(open());
 });
 
 gulp.task('open-app', ['open', 'watch']);
